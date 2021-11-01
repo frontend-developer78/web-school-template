@@ -41,7 +41,10 @@ nav.menu-section-container ul.menubar-wrapper{
     display: flex;
     gap: 0 30px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 18px;
+}
+nav.menu-section-container ul.menubar-wrapper li{
+    z-index: 10;
 }
 nav.menu-section-container ul.menubar-wrapper li a{
     font-size: 15px;
@@ -83,13 +86,98 @@ nav.menu-section-container div.serach-box-menu input{
     font-family: var(--font-family-primary);
     color: rgb(2, 68, 155);
 }
-nav.menu-section-container ul.menubar-wrapper li:nth-child(1) a{
-    border-bottom: 2px solid var(--primary-background-color);
+ul.menubar-wrapper div.animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    transition: all 1s ease;
 }
-nav.menu-section-container ul.menubar-wrapper li a:hover{
-    border-bottom: 2px solid var(--primary-background-color);
-    color: rgb(179, 129, 12);
+nav ul.menubar-wrapper .start-home,nav ul.menubar-wrapper li:nth-child(1):hover ~ .animation{
+    width: 50px;
+    right: 0;
+    background-color: #fdb408;
+    /* border-bottom: 2px solid #1abc9c; */
 }
+nav ul.menubar-wrapper li:nth-child(2):hover ~ .animation{
+    width: 120px;
+    right: 65px;
+    background-color: gold;
+    /* border-bottom: 2px solid #bc1a22; */
+}
+nav ul.menubar-wrapper li:nth-child(3):hover ~ .animation{
+    width: 120px;
+    right: 210px;
+    background-color: gold;
+    /* border-bottom: 2px solid #3498db; */
+}
+nav ul.menubar-wrapper li:nth-child(4):hover ~ .animation{
+    width: 70px;
+    right: 353px;
+    background-color: gold;
+    /* border-bottom: 2px solid #9b59b6; */
+}
+nav ul.menubar-wrapper li:nth-child(5):hover ~ .animation{
+    width: 130px;
+    right: 440px;
+    background-color: gold;
+    /* border-bottom: 2px solid #e67e22; */
+}
+nav ul.menubar-wrapper li:nth-child(6):hover ~ .animation{
+    width: 140px;
+    right: 590px;
+    background-color: gold;
+    /* border-bottom: 2px solid #e67e22; */
+}
+nav ul.menubar-wrapper li:nth-child(7):hover ~ .animation{
+    width: 60px;
+    right: 750px;
+    background-color: gold;
+    /* border-bottom: 2px solid #e67e22; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 nav.menu-section-container button.login-to-pannel:hover{
     background-color: rgb(3, 3, 223);
 }

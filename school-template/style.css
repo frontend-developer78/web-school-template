@@ -133,51 +133,7 @@ nav ul.menubar-wrapper li:nth-child(7):hover ~ .animation{
     right: 750px;
     background-color: gold;
     /* border-bottom: 2px solid #e67e22; */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}git checkout
 nav.menu-section-container button.login-to-pannel:hover{
     background-color: rgb(3, 3, 223);
 }

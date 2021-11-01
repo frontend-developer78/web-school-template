@@ -1,0 +1,88 @@
+@font-face{
+    font-family: Vazir-Medium;
+    src: url("../fonts/Vazir-Medium.eot") format("eot"),
+    url("../fonts/Vazir-Medium.ttf") format("truetype"),
+    url("../fonts/Vazir-Medium.woff") format("woff"),
+    url("../fonts/Vazir-Medium.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: Sahel-Bold;
+    src: url("../font/Sahel-Bold.eot") format("eot"),
+    url("../font/Sahel-Bold.ttf") format("truetype"),
+    url("../font/Sahel-Bold.woff") format("woff"),
+    url("../font/Sahel-Bold.woff2") format("woff2");
+    font-style: bold;
+    font-weight: 900;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+*, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Vazir-Medium;
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+ul, li, ol{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+img{
+    cursor: pointer;
+}
+.black-color{
+    background-color: black;
+}
+.red-color{
+    background-color: red;
+}
+.blue-color{
+    background-color: blue;
+}
+.green-color{
+    background-color: green;
+}
+.yellow-color{
+    background-color: yellow;
+}
+.gray-color{
+    background-color: gray;
+}
+.purple-color{
+    background-color: purple;
+}
+.img-responsive{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.p-0{
+    padding: 0 !important;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.text-center{
+    text-align: center;
+}

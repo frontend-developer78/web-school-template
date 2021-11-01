@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="297mm" height="210mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 29700 21000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:cc="http://creativecommons.org/ns#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:svg="http://www.w3.org/2000/svg"
+ xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+ xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+ inkscape:version="0.92.3 (2405546, 2018-03-11)"
+ sodipodi:docname="whatsapp.svg">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil4 {fill:white}
+    .fil0 {fill:white;fill-rule:nonzero}
+    .fil3 {fill:url(#id0)}
+    .fil2 {fill:url(#id1);fill-rule:nonzero}
+    .fil1 {fill:url(#id2);fill-rule:nonzero}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="14849.46" y1="3789.77" x2="14849.51" y2="16498.59">
+   <stop offset="0" style="stop-opacity:1; stop-color:#5EFB7B"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#06B724"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="108659.64" y1="37139.91" x2="108659.64" y2="37139.91">
+   <stop offset="0" style="stop-opacity:1; stop-color:#20B038"/>
+   <stop offset="0.0117647" style="stop-opacity:1; stop-color:#20B038"/>
+   <stop offset="0.0196078" style="stop-opacity:1; stop-color:#21B039"/>
+   <stop offset="0.0196078" style="stop-opacity:1; stop-color:#21B139"/>
+   <stop offset="0.0313725" style="stop-opacity:1; stop-color:#22B139"/>
+   <stop offset="0.0392157" style="stop-opacity:1; stop-color:#22B13A"/>
+   <stop offset="0.0509804" style="stop-opacity:1; stop-color:#23B23A"/>
+   <stop offset="0.0509804" style="stop-opacity:1; stop-color:#23B23B"/>
+   <stop offset="0.0588235" style="stop-opacity:1; stop-color:#24B23B"/>
+   <stop offset="0.0705882" style="stop-opacity:1; stop-color:#24B33B"/>
+   <stop offset="0.0784314" style="stop-opacity:1; stop-color:#25B33C"/>
+   <stop offset="0.0901961" style="stop-opacity:1; stop-color:#25B33C"/>
+   <stop offset="0.0901961" style="stop-opacity:1; stop-color:#26B33C"/>
+   <stop offset="0.101961" style="stop-opacity:1; stop-color:#26B43D"/>
+   <stop offset="0.109804" style="stop-opacity:1; stop-color:#27B43D"/>
+   <stop offset="0.121569" style="stop-opacity:1; stop-color:#27B43E"/>
+   <stop offset="0.129412" style="stop-opacity:1; stop-color:#28B53E"/>
+   <stop offset="0.129412" style="stop-opacity:1; stop-color:#28B53E"/>
+   <stop offset="0.141176" style="stop-opacity:1; stop-color:#29B53F"/>
+   <stop offset="0.14902" style="stop-opacity:1; stop-color:#29B53F"/>
+   <stop offset="0.160784" style="stop-opacity:1; stop-color:#2AB640"/>
+   <stop offset="0.160784" style="stop-opacity:1; stop-color:#2AB640"/>
+   <stop offset="0.168627" style="stop-opacity:1; stop-color:#2BB640"/>
+   <stop offset="0.180392" style="stop-opacity:1; stop-color:#2BB741"/>
+   <stop offset="0.188235" style="stop-opacity:1; stop-color:#2CB741"/>
+   <stop offset="0.2" style="stop-opacity:1; stop-color:#2CB742"/>
+   <stop offset="0.2" style="stop-opacity:1; stop-color:#2DB842"/>
+   <stop offset="0.211765" style="stop-opacity:1; stop-color:#2DB842"/>
+   <stop offset="0.219608" style="stop-opacity:1; stop-color:#2EB843"/>
+   <stop offset="0.231373" style="stop-opacity:1; stop-color:#2EB843"/>
+   <stop offset="0.239216" style="stop-opacity:1; stop-color:#2FB944"/>
+   <stop offset="0.239216" style="stop-opacity:1; stop-color:#2FB944"/>
+   <stop offset="0.25098" style="stop-opacity:1; stop-color:#30B944"/>
+   <stop offset="0.258824" style="stop-opacity:1; stop-color:#30BA45"/>
+   <stop offset="0.270588" style="stop-opacity:1; stop-color:#31BA45"/>
+   <stop offset="0.270588" style="stop-opacity:1; stop-color:#31BA45"/>
+   <stop offset="0.278431" style="stop-opacity:1; stop-color:#32BB46"/>
+   <stop offset="0.290196" style="stop-opacity:1; stop-color:#32BB46"/>
+   <stop offset="0.301961" style="stop-opacity:1; stop-color:#33BB47"/>
+   <stop offset="0.309804" style="stop-opacity:1; stop-color:#33BB47"/>
+   <stop offset="0.309804" style="stop-opacity:1; stop-color:#34BC47"/>
+   <stop offset="0.321569" style="stop-opacity:1; stop-color:#34BC48"/>
+   <stop offset="0.329412" style="stop-opacity:1; stop-color:#35BC48"/>
+   <stop offset="0.341176" style="stop-opacity:1; stop-color:#35BD49"/>
+   <stop offset="0.34902" style="stop-opacity:1; stop-color:#36BD49"/>
+   <stop offset="0.34902" style="stop-opacity:1; stop-color:#36BD49"/>
+   <stop offset="0.360784" style="stop-opacity:1; stop-color:#37BE4A"/>
+   <stop offset="0.368627" style="stop-opacity:1; stop-color:#37BE4A"/>
+   <stop offset="0.380392" style="stop-opacity:1; stop-color:#38BE4B"/>
+   <stop offset="0.380392" style="stop-opacity:1; stop-color:#38BE4B"/>
+   <stop offset="0.388235" style="stop-opacity:1; stop-color:#39BF4B"/>
+   <stop offset="0.4" style="stop-opacity:1; stop-color:#39BF4C"/>
+   <stop offset="0.411765" style="stop-opacity:1; stop-color:#3ABF4C"/>
+   <stop offset="0.419608" style="stop-opacity:1; stop-color:#3AC04D"/>
+   <stop offset="0.419608" style="stop-opacity:1; stop-color:#3BC04D"/>
+   <stop offset="0.431373" style="stop-opacity:1; stop-color:#3BC04D"/>
+   <stop offset="0.439216" style="stop-opacity:1; stop-color:#3CC04E"/>
+   <stop offset="0.45098" style="stop-opacity:1; stop-color:#3CC14E"/>
+   <stop offset="0.45098" style="stop-opacity:1; stop-color:#3DC14E"/>
+   <stop offset="0.458824" style="stop-opacity:1; stop-color:#3DC14F"/>
+   <stop offset="0.470588" style="stop-opacity:1; stop-color:#3EC24F"/>
+   <stop offset="0.478431" style="stop-opacity:1; stop-color:#3EC250"/>
+   <stop offset="0.490196" style="stop-opacity:1; stop-color:#3FC250"/>
+   <stop offset="0.490196" style="stop-opacity:1; stop-color:#3FC350"/>
+   <stop offset="0.501961" style="stop-opacity:1; stop-color:#40C351"/>
+   <stop offset="0.509804" style="stop-opacity:1; stop-color:#40C351"/>
+   <stop offset="0.509804" style="stop-opacity:1; stop-color:#41C352"/>
+   <stop offset="0.521569" style="stop-opacity:1; stop-color:#41C452"/>
+   <stop offset="0.529412" style="stop-opacity:1; stop-color:#42C452"/>
+   <stop offset="0.541176" style="stop-opacity:1; stop-color:#42C453"/>
+   <stop offset="0.54902" style="stop-opacity:1; stop-color:#43C553"/>
+   <stop offset="0.54902" style="stop-opacity:1; stop-color:#43C554"/>
+   <stop offset="0.560784" style="stop-opacity:1; stop-color:#44C554"/>
+   <stop offset="0.568627" style="stop-opacity:1; stop-color:#44C654"/>
+   <stop offset="0.580392" style="stop-opacity:1; stop-color:#45C655"/>
+   <stop offset="0.580392" style="stop-opacity:1; stop-color:#45C655"/>
+   <stop offset="0.588235" style="stop-opacity:1; stop-color:#46C655"/>
+   <stop offset="0.6" style="stop-opacity:1; stop-color:#46C756"/>
+   <stop offset="0.611765" style="stop-opacity:1; stop-color:#47C756"/>
+   <stop offset="0.619608" style="stop-opacity:1; stop-color:#47C757"/>
+   <stop offset="0.619608" style="stop-opacity:1; stop-color:#48C857"/>
+   <stop offset="0.631373" style="stop-opacity:1; stop-color:#48C857"/>
+   <stop offset="0.639216" style="stop-opacity:1; stop-color:#49C858"/>
+   <stop offset="0.65098" style="stop-opacity:1; stop-color:#49C858"/>
+   <stop offset="0.65098" style="stop-opacity:1; stop-color:#4AC959"/>
+   <stop offset="0.658824" style="stop-opacity:1; stop-color:#4AC959"/>
+   <stop offset="0.670588" style="stop-opacity:1; stop-color:#4BC959"/>
+   <stop offset="0.678431" style="stop-opacity:1; stop-color:#4BCA5A"/>
+   <stop offset="0.690196" style="stop-opacity:1; stop-color:#4CCA5A"/>
+   <stop offset="0.690196" style="stop-opacity:1; stop-color:#4CCA5B"/>
+   <stop offset="0.701961" style="stop-opacity:1; stop-color:#4DCB5B"/>
+   <stop offset="0.709804" style="stop-opacity:1; stop-color:#4DCB5B"/>
+   <stop offset="0.721569" style="stop-opacity:1; stop-color:#4ECB5C"/>
+   <stop offset="0.729412" style="stop-opacity:1; stop-color:#4ECB5C"/>
+   <stop offset="0.729412" style="stop-opacity:1; stop-color:#4FCC5D"/>
+   <stop offset="0.741176" style="stop-opacity:1; stop-color:#4FCC5D"/>
+   <stop offset="0.74902" style="stop-opacity:1; stop-color:#50CC5D"/>
+   <stop offset="0.760784" style="stop-opacity:1; stop-color:#50CD5E"/>
+   <stop offset="0.760784" style="stop-opacity:1; stop-color:#51CD5E"/>
+   <stop offset="0.768627" style="stop-opacity:1; stop-color:#51CD5E"/>
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" xlink:href="#id1" x1="108659.66" y1="37139.91" x2="108659.66" y2="37139.91">
+  </linearGradient>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <sodipodi:namedview id="base" pagecolor="#00ffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:zoom="0.35" inkscape:cx="438.56363" inkscape:cy="-3.2837044" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" units="px" fit-margin-top="0.5" fit-margin-left="0.5" fit-margin-right="0.5" fit-margin-bottom="0.5" inkscape:window-width="1920" inkscape:window-height="1001" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1"/>
+  <line id="path400" class="fil0" x1="-32439.73" y1="-8185.63" x2="14850" y2= "10500"  inkscape:connector-curvature="0"/>
+  <path id="path402" class="fil1" d="M108660 37139.92c0,0 -0.4,0 0,0z" inkscape:connector-curvature="0"/>
+  <path id="path402_0" class="fil2" d="M108660 37139.92c0.4,0 0.4,0 0.4,0 0,0 0,0 -0.4,0l0 0z" inkscape:connector-curvature="0"/>
+  <g id="_724523584">
+   <rect class="fil3" x="8132.09" y="3789.76" width="13434.73" height="13434.73" rx="3134.85" ry="3134.85"/>
+   <path id="path418" class="fil4" d="M13785.11 8378.33c-90.6,-201.24 -185.91,-205.32 -272,-208.86 -70.5,-2.99 -151.12,-2.8 -231.67,-2.8 -80.66,0 -211.55,30.27 -322.28,151.21 -110.8,120.96 -423.12,413.34 -423.12,1008.07 0,594.73 433.17,1169.35 493.51,1250.07 60.44,80.63 836.19,1340.02 2064.88,1824.49 1021.01,402.63 1228.78,322.55 1450.48,302.43 221.62,-20.1 715.13,-292.36 815.8,-574.61 100.75,-282.24 100.75,-524.05 70.58,-574.61 -30.27,-50.46 -110.82,-80.64 -231.76,-141.07 -120.88,-60.43 -715.14,-352.9 -825.96,-393.21 -110.8,-40.32 -191.35,-60.45 -271.97,60.52 -80.57,120.95 -312.06,393.12 -382.65,473.76 -70.48,80.74 -140.97,90.8 -261.94,30.36 -120.87,-60.62 -510.18,-188.1 -971.99,-599.9 -359.34,-320.37 -601.88,-716.03 -672.47,-837 -70.48,-120.95 -7.52,-186.35 53.1,-246.61 54.26,-54.2 120.86,-141.17 181.4,-211.76 60.24,-70.57 80.45,-120.96 120.65,-201.5 40.34,-80.74 20.22,-151.31 -10.05,-211.75 -30.15,-60.42 -265.1,-658.21 -372.54,-897.23zm-3596.44 6896.77l679.45 -2480.9c-419.06,-726.02 -639.53,-1549.7 -639.26,-2393.51 1.08,-2639.83 2149.35,-4787.49 4789.27,-4787.49 1281.07,0.67 2483.48,499.19 3387.81,1404.14 904.08,904.97 1401.92,2107.83 1401.46,3387.2 -1.16,2639.66 -2149.8,4787.67 -4789.27,4787.67 -0.19,0 0.19,0 0,0l-2.06 0c-801.46,-0.32 -1589.03,-201.38 -2288.57,-582.86l-2538.83 665.75zm2656.41 -1532.51l145.51 86.22c611.01,362.63 1311.57,554.4 2026.01,554.77l1.53 0c2194.02,0 3979.65,-1785.19 3980.56,-3979.38 0.39,-1063.29 -413.27,-2063.17 -1164.84,-2815.3 -751.59,-752.11 -1750.93,-1166.53 -2814.18,-1166.97 -2195.75,0 -3981.39,1785.02 -3982.17,3979.03 -0.38,751.86 210.04,1484.15 608.48,2117.78l94.74 150.54 -402.21 1468.35 1506.57 -395.04z" inkscape:connector-curvature="0"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,456 @@
+@charset "UTF-8";
+@import url("../assets/css/system-resrt.css");
+@import "../assets/css/system-resrt.css";
+:root{
+    --font-family-primary: Vazir-Medium;
+    --font-family-second: Sahel-Bold;
+    --primary-color-of-header-site: rgb(216, 184, 3);
+    --second-color-of-header-site: rgb(251, 123, 2);
+    --primary-background-color: rgb(0, 0, 104);
+    --button-back-color:rgb(0, 132, 255);
+}
+/* --------- Start min header section style ----------- */
+.head-content-section{
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-background-color);
+}
+.head-content-section .text-head-content{
+    color: #fff;
+    font-size: 16px;
+    font-family: var(--font-family-primary);
+    padding: 2px;
+}
+/* --------- End min header section style ----------- */
+/* ---------- Start navbar section style ------------ */
+nav.menu-section-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #efefef;
+    box-shadow: 0px 2px 8px #00000065;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav.menu-section-container a.menu-responsive-icon{
+    display: none;
+}
+nav.menu-section-container ul.menubar-wrapper{
+    display: flex;
+    gap: 0 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav.menu-section-container ul.menubar-wrapper li a{
+    font-size: 15px;
+    font-family: var(--font-family-primary);
+    color: black;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    transition: all 0.4s;
+}
+nav.menu-section-container button.login-to-pannel{
+    border: none;
+    outline: none;
+    font-family: var(--font-family-primary);
+    background-color: var(--button-back-color);
+    border-radius: 7px;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+nav.menu-section-container div.serach-box-menu{
+    border: 1px solid #535050;
+    border-radius: 20px;
+    padding: 7px 10px;
+    margin: 7px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav.menu-section-container div.serach-box-menu input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 13px;
+    font-family: var(--font-family-primary);
+    color: rgb(2, 68, 155);
+}
+nav.menu-section-container ul.menubar-wrapper li:nth-child(1) a{
+    border-bottom: 2px solid var(--primary-background-color);
+}
+nav.menu-section-container ul.menubar-wrapper li a:hover{
+    border-bottom: 2px solid var(--primary-background-color);
+    color: rgb(179, 129, 12);
+}
+nav.menu-section-container button.login-to-pannel:hover{
+    background-color: rgb(3, 3, 223);
+}
+.hero-header-container .overlay-header{
+    width: 100%;
+    height: 100%;
+    padding: 70px;
+}
+.hero-header-container .overlay-header h2{
+    margin-bottom: 10px;
+}
+.hero-header-container .overlay-header p{
+    color: rgb(255, 255, 255);
+}
+.hero-header-container .overlay-header button{
+    border: none;
+    outline: none;
+    background-color: red;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgb(179, 5, 5);
+    transition: all 1s ease;
+}
+.hero-header-container .overlay-header button:hover{
+    transform: scale(1.1);
+}
+@media only screen and (max-width:1160px){
+    nav.menu-section-container ul.menubar-wrapper{
+        display: none;
+    }
+    nav.menu-section-container a.menu-responsive-icon{
+        display: block;
+        margin-right: 20px;
+    }
+    nav.menu-section-container div.serach-box-menu input{
+        width: 250px;
+    }
+}
+@media only screen and (max-width:1100px){
+    .hero-header-container .overlay-header{
+        padding: 30px;
+    }
+    .hero-header-container .overlay-header h2{
+        margin-top: 3px;
+        font-size: 18px;
+    }
+    .hero-header-container .overlay-header p{
+        display: none;
+    }
+    .hero-header-container .overlay-header button{
+        font-size: 12px;
+        padding: 5px 10px;
+        margin-top: 0;
+    }
+}
+/* ---------- End navbar section style ------------ */
+/* ---------- Start circle title section style ------------ */
+.card-title-circle-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.card-title-circle-container .head-card-text-section{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+.card-title-circle-container .head-card-text-section h2{
+    text-shadow:2px 6px 7px rgb(46, 46, 46);
+}
+.card-title-circle-container .head-card-text-section p{
+    color: #535050;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.card-title-circle-container .head-card-text-section button{
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background-color: rgb(255, 157, 0);
+    color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 0 8px #858585;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.card-title-circle-container .head-card-text-section button:hover{
+    background-color: rgb(255, 124, 1);
+    border-radius: 4px 15px 4px 15px;
+}
+div.flip-card{
+    perspective: 800px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+div.flip-card h5{
+    margin-top: 20px;
+    color: rgb(75, 74, 74);
+}
+.card-title-circle-container div.flip-card-inner{
+    transform-style: preserve-3d;
+    border-radius: 50%;
+    transition: all 1s linear;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 8px rgba(68, 68, 68, 0.933);
+}
+.card-title-circle-container div.flip-card-inner div.flip-card-front{
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+}
+.card-title-circle-container div.flip-card-inner div.flip-card-front img{
+    border-radius: 50%;
+    height: 200px;
+}
+.card-title-circle-container div.flip-card-inner .flip-card-backside{
+    transform: rotateY(180deg);
+    border-radius: 50%;
+    padding: 10px;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgb(0,179,255);
+background: linear-gradient(90deg, rgba(0,179,255,1) 0%, rgba(255,0,149,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+div.flip-card:hover div.flip-card-inner{
+    transform: rotateY(180deg);
+}
+.card-title-circle-container div.flip-card-inner .flip-card-backside h4{
+    font-size: 20px;
+}
+.card-title-circle-container div.flip-card-inner .flip-card-backside p{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+@media only screen and (max-width:930px){
+    div.flip-card{
+        width: 100px;
+        height: 100px;
+    }
+    .card-title-circle-container div.flip-card-inner div.flip-card-front img{
+        height: 100px;
+    }
+    .card-title-circle-container div.flip-card-inner .flip-card-backside h4{
+        font-size: 12px;
+        text-align: center;
+    }
+    .card-title-circle-container div.flip-card-inner .flip-card-backside p{
+        font-size: 8px;
+        color: rgb(255, 255, 255);
+        margin-top: 4px;
+        text-align: center;
+    }
+}
+/* ---------- End circle title section style ------------ */
+/* ---------- Start content section style ------------ */
+.content-container{
+    background-image: url("../assets/image/e-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 0 15px;
+    margin-top: 50px;
+    padding: 30px;
+}
+.content-container .sidebar-menu-section{
+    padding: 20px;
+    border-radius: 5px;
+    grid-column: 1 / 3;
+}
+.content-container .sidebar-menu-section .online-class{
+    background-color: rgba(255, 255, 255, 0.548);
+    box-shadow: 0 0 8px #c8c8c8;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.content-container .sidebar-menu-section .online-class h5{
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #808080;
+    margin-bottom: 3px;
+    color: goldenrod;
+}
+.content-container .sidebar-menu-section .online-class p{
+    margin-bottom: 10px;
+    transition: all 0.4s;
+}
+.content-container .sidebar-menu-section .online-class p a{
+    color: rgb(80, 80, 80);
+    transition: all 0.4s;
+}
+.content-container .sidebar-menu-section .online-class p a i{
+    margin-left: 5px;
+    color: rgb(207, 129, 3);
+}
+.content-container .sidebar-menu-section .online-class p:hover{
+    margin-right: 7px;
+}
+.content-container .sidebar-menu-section .online-class p a:hover{
+    color: red;
+}
+.content-container .sidebar-menu-section .number-in-site{
+    background-color: rgba(255, 255, 255, 0.548);
+    box-shadow: 0 0 8px #c8c8c8;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.content-container .sidebar-menu-section .number-in-site h5{
+    color: rgb(83, 83, 83);
+    margin-bottom: 10px;
+}
+.content-container .sidebar-menu-section .number-in-site p{
+    font-size: 18px;
+    color: rgb(167, 142, 4);
+}
+.content-container .sidebar-menu-section .social-media-link{
+    background-color: rgba(255, 255, 255, 0.548);
+    box-shadow: 0 0 8px #c8c8c8;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto;
+}
+.content-container .sidebar-menu-section .social-media-link h5{
+    color: dimgrey;
+    padding-bottom: 12px;
+    border-bottom: 1px dashed gray;
+    margin-bottom: 5px;
+}
+.content-container .sidebar-menu-section .social-media-link a{
+    font-size: 16px;
+    transition: all 0.5s ease;
+}
+.content-container .sidebar-menu-section .social-media-link a:hover{
+    color: rgb(5, 8, 146);
+    margin-right: 10px;
+}
+.content-container .sidebar-menu-section .social-media-link a img{
+    width: 35px;
+    vertical-align: -10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.content-container .content-center-position{
+    grid-column: 3 / 6;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.548);
+    box-shadow: 0 0 8px #c8c8c8;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.content-container .content-center-position h3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 22px;
+    color: rgb(66, 66, 66);
+}
+.content-container .content-center-position .parag-center-section{
+   text-align: justify;
+}
+.content-container .content-center-position .parag-center-section p{
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(93, 93, 93);
+}
+.content-container .content-center-position .classroom-image-section{
+    display: flex;
+    gap: 0 15px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.content-container .content-center-position .classroom-image-section img{
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgb(117, 117, 117);
+    height: auto;
+    margin-bottom: 15px;
+}
+/* ---------- End content section style ------------ */
+/* ---------- Start about of school section style ------------ */
+.about-school-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(228, 228, 228);
+}
+.about-school-section h3{
+    margin-top: 50px;
+    color: #383838;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.about-school-section .card-school-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-school-section .card-school-section .card-about-section{
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.28);
+    padding: 20px;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 8px #bdbdbd;
+}
+.about-school-section .card-school-section .card-about-section .card-about-section-top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.about-school-section .card-school-section .card-about-section .card-about-section-top img{
+    width: 55px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.about-school-section .card-school-section .card-about-section .card-about-section-top h5{
+    color: rgb(63, 63, 63);
+    text-shadow: 3px 3px 4px rgb(116 116 116);
+}
+.about-school-section .card-school-section .card-about-section .card-about-section-bottom p{
+    color: rgb(92, 92, 92);
+    text-align: justify;
+}
+.about-school-section .card-school-section .card-about-section:hover{
+    border-radius: 10px 40px;
+    background-color: goldenrod;
+    box-shadow: 0 0 8px #808080;
+}
+.about-school-section .card-school-section .card-about-section:hover .card-about-section-bottom p{
+    color: rgb(68, 68, 68);
+}
+/* ---------- End about of school section style ------------ */

@@ -3,7 +3,7 @@
 @import "../assets/css/system-resrt.css";
 /* ------------ Start login section style ------------- */
 body{
-    background-image: url("../assets/image/beach-image.jpg");
+    background-image: url("../assets/image/jeremy.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,12 +17,12 @@ body{
 .login-container{
     display: flex;
     /* flex-direction: row-reverse; */
-    background-color: rgba(253, 253, 253, 0.609);
+    background-color: rgba(253, 253, 253, 0.513);
     margin-top: 40px;
     margin-left: 30px;
     margin-right: 30px;
     border-radius: 20px;
-    box-shadow: 0 0 11px #747474;
+    box-shadow: 0 0 11px #525252;
     width: 700px;
 }
 .login-container .login-left-image{
@@ -65,12 +65,12 @@ body{
 }
 .login-container .login-content-right .login-input-section button{
     margin-top: 30px;
-    margin-right: 82px;
+    margin-right: 22px;
     width: 100px;
     padding: 5px 10px;
     outline: none;
     border: none;
-    background-color: rgba(255, 0, 0, 0.705);
+    background-color: rgb(109, 109, 109);
     color: #fff;
     font-size: 18px;
     border-radius: 20px;

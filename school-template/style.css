@@ -412,6 +412,7 @@ div.flip-card:hover div.flip-card-inner{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .content-container .content-center-position h3{
     text-align: center;
@@ -430,16 +431,26 @@ div.flip-card:hover div.flip-card-inner{
 }
 .content-container .content-center-position .classroom-image-section{
     display: flex;
-    gap: 0 15px;
+    gap: 15px;
     margin-top: 40px;
-    flex-wrap: wrap;
+    padding: 20px;
 }
 .content-container .content-center-position .classroom-image-section img{
-    max-width: 300px;
+    width: 50%;
     border-radius: 10px;
     box-shadow: 0 0 8px rgb(117, 117, 117);
     height: auto;
     margin-bottom: 15px;
+}
+@media only screen and (max-width:720px){
+    .content-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content-container .sidebar-menu-section{
+        padding: 0;
+        width: 100%;
+    }
 }
 /* ---------- End content section style ------------ */
 /* ---------- Start about of school section style ------------ */

@@ -46,9 +46,15 @@ html,body,.page{
 #t5:target #p1{
     background: black;
 }
+#t2:target #p1 .icon,
+#t3:target #p1 .icon,
+#t4:target #p1 .icon,
+#t5:target #p1 .icon{
+    filter: blur(3px);
+}
 .icon{
     color: #fff;
-    font-size: 22px;
+    font-size: 30px;
     display: block;
 }
 ul .icon:hover{

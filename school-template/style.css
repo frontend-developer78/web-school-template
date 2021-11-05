@@ -633,3 +633,76 @@ div.flip-card:hover div.flip-card-inner{
     color: rgb(68, 68, 68);
 }
 /* ---------- End about of school section style ------------ */
+/* ---------- Start picture galary section style ------------ */
+.galary-picture-section{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+.galary-picture-section h3{
+    color: #383838;
+    font-size: 25px;
+    text-shadow: 3px 5px 9px #535050;
+    position: relative;
+    margin-top: 50px;
+}
+.galary-picture-section h3::after{
+    content: '';
+    width: 20px;
+    height: 3px;
+    background-color: orangered;
+    position: absolute;
+    top: 21px;
+    right: 263px;
+}
+.galary-picture-section h3::before{
+    content: '';
+    width: 20px;
+    height: 3px;
+    background-color: orangered;
+    position: absolute;
+    top: 21px;
+    right: -27px;
+}
+.galary-picture-section .galary-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 15px;
+    margin: 40px 20px;
+}
+.galary-1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.galary-9{
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+.galary-4{
+    grid-column: 4/6;
+    grid-row: 2/4;
+}
+.galary-17{
+    grid-column: 1/3;
+    grid-row: 5/8;
+}
+.galary-18{
+    grid-column: 3/5;
+    grid-row: 5/8;
+}
+.galary-picture-section .galary-container div{
+    overflow: hidden;
+    border-radius: 5px;
+}
+.galary-picture-section .galary-container div img{
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.galary-picture-section .galary-container div img:hover{
+    transform: scale(1.2) rotate(10deg);
+}
+/* ---------- End picture galary section style ------------ */

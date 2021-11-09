@@ -158,13 +158,13 @@ nav.menu-section-container button.login-to-pannel:hover{
     border: none;
     outline: none;
     display: inline-block;
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(255, 179, 0);
     font-size: 18px;
     padding: 5px 10px;
     margin-top: 20px;
     margin-right: 10px;
     border-radius: 10px;
-    color: rgb(73, 73, 73);
+    color: rgb(0, 0, 0);
     cursor: pointer;
     box-shadow: 0 0 8px rgb(179, 5, 5);
     transition: all 1s ease;
@@ -274,21 +274,6 @@ input#social-community:checked ~ label img{
     opacity: 1;
     top: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width:1160px){
     nav.menu-section-container ul.menubar-wrapper{
         display: none;
@@ -393,8 +378,8 @@ div.flip-card h5{
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: rgb(0,179,255);
-background: linear-gradient(90deg, rgba(0,179,255,1) 0%, rgba(255,0,149,1) 100%);
+    background: rgb(255, 157, 0);
+    background: linear-gradient(to right, #a2ddbc, #7bc198);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -632,6 +617,11 @@ div.flip-card:hover div.flip-card-inner{
 .about-school-section .card-school-section .card-about-section:hover .card-about-section-bottom p{
     color: rgb(68, 68, 68);
 }
+@media only screen and (max-width:600px){
+    .about-school-section .card-school-section .card-about-section{
+        width: 80%;
+    }
+}
 /* ---------- End about of school section style ------------ */
 /* ---------- Start picture galary section style ------------ */
 .galary-picture-section{
@@ -706,13 +696,165 @@ div.flip-card:hover div.flip-card-inner{
     transform: scale(1.2) rotate(10deg);
 }
 /* ---------- End picture galary section style ------------ */
+/* ---------- Start slideshow galary section ------------ */
+.slideshow-image-wrapper{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.253);
+    margin-top: 70px;
+}
+.slideshow-image-container{
+    display: block;
+    height: 320px;
+    min-width: 260px;
+    max-width: 460px;
+    border: 12px solid #efefef;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    margin-top: 20px;
+    margin-bottom: 80px;
+    position: relative;
+}
+.slideshow-image-wrapper h2{
+    text-shadow: 2px 5px 5px #555555;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color: rgb(51, 51, 51);
+}
+#slideshow-inner{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.slideshow-image-container #slideshow-inner ul{
+    width: 500%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    transition: right 0.8s ease;
+}
+.slideshow-image-container #slideshow-inner ul > li{
+    width: 20%;
+    height: 320px;
+    display: grid;
+    /* justify-content: center; */
+    float: right;
+    position: relative;
+}
+.slideshow-image-container #slideshow-inner ul > li > img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.slideshow-image-container label:not(.show-description-label){
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(200, 200, 200, 1);
+    border-radius: 50%;
+    z-index: 20;
+    cursor: pointer;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+    transition: background-color 0.2s;
+}
+.slideshow-image-container label:active{
+    bottom: -46px;
+}
+.slideshow-image-container label[for="button-1"]{
+    margin-left: -36px;
+}
+.slideshow-image-container label[for="button-2"]{
+    margin-left: -18px;
+}
+.slideshow-image-container #button-1:checked ~ #slideshow-inner > ul{
+    left: 0%;
+}
+.slideshow-image-container #button-2:checked ~ #slideshow-inner > ul{
+    right: -100%;
+}
+.slideshow-image-container #button-3:checked ~ #slideshow-inner > ul{
+    right: -200%;
+}
+.slideshow-image-container #button-1:checked ~ label[for="button-1"]{
+    background-color: gray;
+}
+.slideshow-image-container #button-2:checked ~ label[for="button-2"]{
+    background-color: gray;
+}
+.slideshow-image-container #button-3:checked ~ label[for="button-3"]{
+    background-color: gray;
+}
+.slideshow-image-container input[type="radio"]{
+    position: absolute;
+    display: none;
+}
+.description{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 260px;
+    z-index: 30;
+}
+.description input{
+    visibility: hidden;
+}
+.description label{
+    background-color: #fff;
+    position: relative;
+    top: 0px;
+    left: -204px;
+    width: 40px;
+    height: 26px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(71, 71, 71);
+    border-radius: 0 0 15px 0;
+    z-index: 5;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+.slideshow-image-container #slideshow-inner:hover .description label{
+    opacity: 1;
+}
+.slideshow-image-container #slideshow-inner .description input[type="checkbox"]:checked ~ label{
+    opacity: 1;
+}
+.slideshow-image-container #slideshow-inner .description #description-text{
+    opacity: 0;
+    position: relative;
+    top: -35px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    color: rgb(75, 75, 75);
+    padding: 10px;
+    z-index: 4;
+    border-radius: 0 0 15px 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.slideshow-image-container #slideshow-inner .description #description-text h3{
+    font-size: 22px;
+}
+.slideshow-image-container #slideshow-inner .description #description-text p{
+    font-size: 18px;
+}
+.slideshow-image-container #slideshow-inner .description input[type="checkbox"]:checked ~ #description-text{
+    opacity: 1;
+}
+/* ---------- End slideshow galary section ------------ */
 /* ---------- Start footer section style ------------ */
 .footer-section{
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-around;
     background-color: #efefef;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding: 20px 15px 40px 15px;
 }
 .footer-section .footer-section-right{
@@ -840,5 +982,42 @@ div.flip-card:hover div.flip-card-inner{
 }
 .footer-bottom div a:hover{
     color: red;
+}
+@media only screen and (max-width:800px){
+    .footer-section{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: flex-start;
+        background-color: #efefef;
+        margin-top: 50px;
+        padding: 20px 15px 40px 15px;
+    }
+    .footer-section .footer-section-middle{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: flex-start;
+        gap: 15px;
+        margin-right: 0px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .footer-section .footer-section-left{
+        display: grid;
+        grid-template-columns: auto;
+        margin-right: 0px;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 5px 20px;
+        background-color: #383838;
+        color: #fff;
+    }
 }
 /* ---------- End footer section style ------------ */

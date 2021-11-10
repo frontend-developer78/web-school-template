@@ -70,21 +70,39 @@ nav.menu-section-container button.login-to-pannel{
     transition: all 0.5s;
 }
 nav.menu-section-container div.serach-box-menu{
-    border: 1px solid #535050;
-    border-radius: 20px;
-    padding: 7px 10px;
     margin: 7px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row-reverse;
 }
-nav.menu-section-container div.serach-box-menu input{
-    border: none;
+nav.menu-section-container div.serach-box-menu .search-text-menu-container{
+    display: none;
+    transition: all 0.3s ease;
+}
+nav.menu-section-container div.serach-box-menu .search-text-menu-container input{
     outline: none;
+    border: none;
     background-color: transparent;
-    font-size: 13px;
+}
+nav.menu-section-container div.serach-box-menu input#search-check-menu{
+    display: none;
+    position: absolute;
+}
+nav.menu-section-container div.serach-box-menu label i{
+    color: orangered;
+    font-size: 25px;
+    transform: rotateY(180deg);
+    transition: all 0.3s ease;
+}
+nav.menu-section-container div.serach-box-menu input#search-check-menu:checked ~ label i{
+    font-size: 18px;
+}
+nav.menu-section-container div.serach-box-menu input#search-check-menu:checked ~ .search-text-menu-container{
+    display: block;
+    padding: 4px;
+    font-size: 14px;
     font-family: var(--font-family-primary);
-    color: rgb(2, 68, 155);
 }
 ul.menubar-wrapper div.animation{
     position: absolute;
@@ -95,44 +113,44 @@ ul.menubar-wrapper div.animation{
 nav ul.menubar-wrapper .start-home,nav ul.menubar-wrapper li:nth-child(1):hover ~ .animation{
     width: 50px;
     right: 0;
-    background-color: #fdb408;
-    /* border-bottom: 2px solid #1abc9c; */
+    /* background-color: #fdb408; */
+    border-bottom: 2px solid #00ffcc;
 }
 nav ul.menubar-wrapper li:nth-child(2):hover ~ .animation{
     width: 120px;
     right: 65px;
-    background-color: gold;
-    /* border-bottom: 2px solid #bc1a22; */
+    /* background-color: gold; */
+    border-bottom: 2px solid #ff000d;
 }
 nav ul.menubar-wrapper li:nth-child(3):hover ~ .animation{
     width: 120px;
     right: 210px;
-    background-color: gold;
-    /* border-bottom: 2px solid #3498db; */
+    /* background-color: gold; */
+    border-bottom: 2px solid #0099ff;
 }
 nav ul.menubar-wrapper li:nth-child(4):hover ~ .animation{
     width: 70px;
     right: 353px;
-    background-color: gold;
-    /* border-bottom: 2px solid #9b59b6; */
+    /* background-color: gold; */
+    border-bottom: 2px solid #b700ff;
 }
 nav ul.menubar-wrapper li:nth-child(5):hover ~ .animation{
     width: 130px;
     right: 440px;
-    background-color: gold;
-    /* border-bottom: 2px solid #e67e22; */
+    /* background-color: gold; */
+    border-bottom: 2px solid #ffc400;
 }
 nav ul.menubar-wrapper li:nth-child(6):hover ~ .animation{
     width: 140px;
     right: 590px;
-    background-color: gold;
-    /* border-bottom: 2px solid #e67e22; */
+    /* background-color: gold; */
+    border-bottom: 2px solid #1eff00;
 }
 nav ul.menubar-wrapper li:nth-child(7):hover ~ .animation{
     width: 60px;
     right: 750px;
-    background-color: gold;
-    /* border-bottom: 2px solid #e67e22; */
+    /* background-color: gold; */
+    border-bottom: 2px solid #1100ff;
 }git checkout
 nav.menu-section-container button.login-to-pannel:hover{
     background-color: rgb(3, 3, 223);
@@ -273,6 +291,95 @@ input#social-community:checked ~ label span{
 input#social-community:checked ~ label img{
     opacity: 1;
     top: 0;
+}
+.menu-section-container .profile-card-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: ltr;
+    position: relative;
+}
+.menu-section-container .profile-card-box-container .btn-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+    border: none;
+    min-width: 200px;
+    border-radius: 5px;
+    padding: 7px 20px;
+    color: #fff;
+    background: linear-gradient(to left, #2b00ff, #6600ff);
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.menu-section-container .profile-card-box-container .btn-box i{
+    border-radius: 100%;
+    margin-right: 50px;
+    animation: ripple 0.6s linear infinite;
+}
+@keyframes ripple{
+    0%{
+        box-shadow: 0 0 0 0 rgba(255,255,255,0.1),0 0 0 20px rgba(255,255,255,0.1),0 0 0 40px rgba(255,255,255,0.1),0 0 0 60px rgba(255,255,255,0.1);
+    }
+    100%{
+        box-shadow: 0 0 0 20px rgba(255,255,255,0.1),0 0 0 40px rgba(255,255,255,0.1),0 0 0 60px rgba(255,255,255,0.1),0 0 0 80px rgba(255,255,255,0);
+    }
+}
+.menu-section-container .profile-card-box-container .profile-view-text{
+    min-width: 200px;
+    position: absolute;
+    top: 121%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px #2e2e2e5e;
+    transition: all 0.3s ease;
+    padding: 0 15px;
+    visibility: hidden;
+    opacity: 0;
+}
+.menu-section-container .profile-card-box-container .profile-view-text::before{
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
+    border-top: 6px solid rgb(255, 255, 255);
+    border-right: 6px solid rgb(255, 255, 255);
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid transparent;
+    transform: rotate(-45deg);
+}
+
+.menu-section-container .profile-card-box-container .profile-view-text ul.profile-view-menu li.active a{
+    color: rgb(211, 166, 19);
+}
+.menu-section-container .profile-card-box-container .profile-view-text ul.profile-view-menu li:first-child a{
+    border-radius: 5px 5px 0 0;
+}
+.menu-section-container .profile-card-box-container .profile-view-text ul.profile-view-menu li:last-child a{
+    border-radius: 0 0 5px 5px;
+    border-bottom: 0;
+}
+.menu-section-container .profile-card-box-container .profile-view-text ul.profile-view-menu li a{
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 16px 0;
+    font-size: 14px;
+}
+.menu-section-container .profile-card-box-container .btn-box:focus ~ div.profile-view-text,.menu-section-container .profile-card-box-container .btn-box:active ~ div.profile-view-text{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(5px);
 }
 @media only screen and (max-width:1160px){
     nav.menu-section-container ul.menubar-wrapper{

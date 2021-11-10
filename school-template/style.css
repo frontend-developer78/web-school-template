@@ -89,14 +89,26 @@ nav.menu-section-container div.serach-box-menu input#search-check-menu{
     display: none;
     position: absolute;
 }
+nav.menu-section-container div.serach-box-menu label{
+    display: flex;
+    align-items: center;
+}
 nav.menu-section-container div.serach-box-menu label i{
     color: orangered;
     font-size: 25px;
     transform: rotateY(180deg);
     transition: all 0.3s ease;
 }
+nav.menu-section-container div.serach-box-menu label span{
+    font-size: 18px;
+    margin-left: 10px;
+    color: goldenrod;
+}
 nav.menu-section-container div.serach-box-menu input#search-check-menu:checked ~ label i{
     font-size: 18px;
+}
+nav.menu-section-container div.serach-box-menu input#search-check-menu:checked ~ label span{
+    display: none;
 }
 nav.menu-section-container div.serach-box-menu input#search-check-menu:checked ~ .search-text-menu-container{
     display: block;
@@ -624,6 +636,7 @@ div.flip-card:hover div.flip-card-inner{
     padding: 20px;
     border-radius: 5px;
     margin-top: 20px;
+    margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
